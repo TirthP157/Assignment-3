@@ -1,0 +1,163 @@
+/* === Global Styles === */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', cursive;
+    background: linear-gradient(135deg, #ff7518, #f4c07a);
+    color: #4e2e21;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Bangers', cursive;
+    text-shadow: 2px 2px #fff4;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ff7518cc;
+}
+
+/* === Hero Section === */
+.hero {
+    background: url('reeses-banner.jpg') no-repeat center center/cover;
+    padding: 80px 20px;
+    color: white;
+    text-shadow: 2px 2px 8px #000;
+}
+
+.hero h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+/* === About Section === */
+.about {
+    padding: 40px 20px;
+    background-color: #fff7e6;
+}
+
+.about h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* === Variations Section === */
+.variations {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.variations h2 {
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.variant-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.variant {
+    width: 200px;
+    background-color: #ffe2b3;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.variant:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(255, 117, 24, 0.4);
+}
+
+.variant p {
+    margin-top: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* === Nutrition Section === */
+.nutrition {
+    background-color: #ffedd6;
+    padding: 40px 20px;
+}
+
+.nutrition h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.nutrition ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 2;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+/* === Footer === */
+footer {
+    background-color: #4e2e21;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+footer h3 {
+    font-family: 'Bangers', cursive;
+    font-size: 2.5em;
+}
+
+footer form {
+    max-width: 400px;
+    margin: 20px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer input,
+footer textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Baloo 2', cursive;
+}
+
+footer button {
+    padding: 10px;
+    background-color: #ff7518;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+footer button:hover {
+    background-color: #e65c00;
+}
